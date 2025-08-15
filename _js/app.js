@@ -1,6 +1,10 @@
-setTimeout(function() {
-  fadeOutPreloader(document.getElementById('preloader'), 69);
-}, 1500);
+// Start with the intro animation
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        fadeOutPreloader(document.getElementById('preloader'), 69);
+        introAnimation();
+    }, 500);
+});
 
 $(document).ready(function() {
   $(window).on('beforeunload', function() {
