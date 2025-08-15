@@ -14,16 +14,17 @@ baseurl: ""
 username: Keshav Dadhich
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Data Science & AI Engineer
+typing_text: ML/AI Enthusiast
 # email: Your E-Mail address for the email button.
 email: "dadhichkeshav5@gmail.com"
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: keshavv-dadhich
+linkedin_username: keshav-dadhich-a50b142b7
+leetcode_username: Dadhich_Keshav
 codepen_username: null
 dev_username: null
-linkedin_username: keshav-dadhich-a50b142b7
 twitter_username: null
 
 # ABOUT ME SECTION
