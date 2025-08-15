@@ -5,26 +5,32 @@
 # - name: Git
 #   weight: 5
 
+- name: AWS
+  weight: 4
+
+- name: GCP
+  weight: 4
+
+- name: Azure
+  weight: 4
+
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 3
-
-- name: Scrum
-  weight: 1
-
-- name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
-
-- name: npm
-  weight: 2
-
 - name: VS Code
-  weight: 3
+  weight: 5
 
-- name: Postman
+- name: MLflow
+  weight: 4
+
+- name: CI/CD
+  weight: 4
+
+- name: AutoML
+  weight: 4
+
+- name: Optuna
+  weight: 4
+
+- name: H2O.ai
   weight: 4

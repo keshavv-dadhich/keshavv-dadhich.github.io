@@ -13,21 +13,32 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
-  tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
-
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Bruno - AI-Powered Web Research Assistant
+  descr: "Engineered intelligent multi-cycle web research assistant processing 50+ queries/hour with local LLM inference using Ollama and LMStudio. Implemented asynchronous web scraping architecture integrating DuckDuckGo and Perplexity APIs, processing 15+ web pages per query cycle with ~5s average latency."
+  demo: https://github.com/keshavv-dadhich/bruno
   tags:
     - tag: Python
-    - tag: Django
+    - tag: LangChain
+    - tag: FastAPI
+    - tag: LLMs
+    - tag: REST APIs
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Image Caption Generation
+  descr: "Developed transformer-based image captioning model using ResNet101 and Vision Transformer backbones, trained on MS COCO subset (86K images). Achieved BLEU-1 score of 0.79 on a 10K-image validation set, a 5% improvement over baselines."
+  demo: https://github.com/keshavv-dadhich/image-caption
+  tags:
+    - tag: PyTorch
+    - tag: Computer Vision
+    - tag: Transformers
+    - tag: ResNet
+    - tag: Vision Transformers
+
+- name: Automated Machine Learning Platform
+  descr: "Built AutoML system achieving top-3 performance rankings across 90% of binary classification & regression benchmarks. Integrated automated feature engineering pipeline generating 30–60 derived features/dataset, improving accuracy by 10–15%."
+  demo: https://github.com/keshavv-dadhich/automl-platform
+  tags:
+    - tag: Python
+    - tag: AutoML
+    - tag: Scikit-learn
+    - tag: XGBoost
+    - tag: ML Optimization

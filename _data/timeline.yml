@@ -17,28 +17,32 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Rupeek Fintech Pvt. Ltd.
-  title-url: https://rupeek.com/
-  date: June 2019 - Present
-  subtitle: Fullstack Developer
+- title: Wadhwani School of Data Science and AI
+  title-url: https://www.wadhwaniai.org/
+  date: May 2025 - Present
+  subtitle: Data Science Intern
   tags:
-    - tag: Javascript
-    - tag: NoSQl,SQL
-    - tag: Express
-  timeline-side: right
-
-- title: IIT Delhi
-  title-url: https://iitd.ac.in/
-  date: May 2018 - July 2018
-  subtitle: Machine learning Reasearch Intern
-  tags:
+    - tag: LLMs
+    - tag: MLOps
     - tag: Python
-    - tag: TensorFlow
-    - tag: OpenCV
+    - tag: ML Research
   timeline-side: right
 
-- title: National Insititute Of Technology,Goa
+- title: National Institute of Technology Goa
   title-url: https://nitg.ac.in/
-  date: 2015 - 2019
-  subtitle: B.Tech in Electrical,Electronics and Communication Engineering
+  date: 2022 - 2026
+  subtitle: B.Tech in Computer Science and Engineering (GPA: 8.96/10.0)
+  tags:
+    - tag: AI/ML
+    - tag: Data Science
+    - tag: Computer Science
   timeline-side: left
+
+- title: Notable Achievement
+  date: 2024
+  subtitle: Designed and deployed an AI-powered Traffic Signal Optimization System, adopted by Bengaluru Traffic Police across 160 major junctions
+  tags:
+    - tag: AI
+    - tag: Real-time Systems
+    - tag: Traffic Optimization
+  timeline-side: right

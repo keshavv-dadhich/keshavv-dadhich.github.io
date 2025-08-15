@@ -5,24 +5,33 @@
 # - name: Framework
 #   weight: 5
 
-- name: SailsJS
+- name: PyTorch
   weight: 5
 
-- name: ExpressJS
-  weight: 3
-
-- name: VUeJS
+- name: TensorFlow
   weight: 4
 
-- name: PostgreSQL
-  weight: 2
+- name: Scikit-learn
+  weight: 5
 
-- name: MongoDB
-  weight: 3
+- name: XGBoost
+  weight: 4
 
-- name: Tensorflow
-  weight: 2
+- name: LangChain
+  weight: 4
 
 - name: OpenCV
-  weight: 2
+  weight: 4
+
+- name: FastAPI
+  weight: 4
+
+- name: MLflow
+  weight: 4
+
+- name: Docker
+  weight: 4
+
+- name: Kubernetes
+  weight: 3
 

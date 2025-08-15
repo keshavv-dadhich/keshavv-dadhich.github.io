@@ -2,29 +2,29 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: RAJAT GOVEKAR
+title: Keshav Dadhich
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Data Science & AI Portfolio
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: ROJJOT
+username: Keshav Dadhich
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: Data Science & AI Engineer
 # email: Your E-Mail address for the email button.
-email: "rojjot@gmail.com"
+email: "dadhichkeshav5@gmail.com"
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: RAJATRG
+github_username: keshavv-dadhich
 codepen_username: null
 dev_username: null
-linkedin_username: rojjot
-twitter_username: ROJJOT
+linkedin_username: keshav-dadhich-a50b142b7
+twitter_username: null
 
 # ABOUT ME SECTION
 # show_aboutme_card:

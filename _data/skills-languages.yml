@@ -5,19 +5,14 @@
 # - name: Language
 #   weight: 5
 
-- name: NodeJS
-  weight: 4
-
-- name: JavaScript
+- name: Python
   weight: 5
 
-- name: Python
-  weight: 3
+- name: C++
+  weight: 4
 
-- name: HTML5
-  weight: 3
-
-- name: CSS3
+- name: SQL
+  weight: 4
   weight: 3
 
 - name: Java
