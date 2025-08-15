@@ -17,10 +17,10 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Wadhwani School of Data Science and AI
-  title-url: https://www.wadhwaniai.org/
-  date: May 2025 - Present
-  subtitle: Data Science Intern
+- title: "Wadhwani School of Data Science and AI"
+  title-url: "https://www.wadhwaniai.org/"
+  date: "May 2025 - Present"
+  subtitle: "Data Science Intern"
   tags:
     - tag: LLMs
     - tag: MLOps
@@ -28,19 +28,19 @@
     - tag: ML Research
   timeline-side: right
 
-- title: National Institute of Technology Goa
-  title-url: https://nitg.ac.in/
-  date: 2022 - 2026
-  subtitle: B.Tech in Computer Science and Engineering (GPA: 8.96/10.0)
+- title: "National Institute of Technology Goa"
+  title-url: "https://nitg.ac.in/"
+  date: "2022 - 2026"
+  subtitle: "B.Tech in Computer Science and Engineering | GPA - 8.96/10.0"
   tags:
     - tag: AI/ML
     - tag: Data Science
     - tag: Computer Science
   timeline-side: left
 
-- title: Notable Achievement
-  date: 2024
-  subtitle: Designed and deployed an AI-powered Traffic Signal Optimization System, adopted by Bengaluru Traffic Police across 160 major junctions
+- title: "Notable Achievement"
+  date: "2024"
+  subtitle: "AI-powered Traffic Signal Optimization System - Bengaluru Traffic Police"
   tags:
     - tag: AI
     - tag: Real-time Systems
