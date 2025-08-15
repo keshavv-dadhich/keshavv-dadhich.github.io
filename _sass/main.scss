@@ -2,6 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import "custom/cursor";
+
+/* Hide default cursor when custom cursor is active */
+* {
+  cursor: none !important;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
+}
 
 /* Variables */
 

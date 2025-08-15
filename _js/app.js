@@ -7,6 +7,9 @@ $(document).ready(function() {
     window.scrollTo(0, 0);
   });
 
+  // Initialize custom cursor
+  initCustomCursor();
+
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
 

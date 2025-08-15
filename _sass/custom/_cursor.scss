@@ -1,0 +1,24 @@
+/* Custom cursor styles */
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #64ffda;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 999999;
+    opacity: 0.75;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cursor-dot.active {
+    opacity: 0.5;
+    transform: scale(2);
+}
+
+/* Hide cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .cursor-dot {
+        display: none !important;
+    }
+}
