@@ -1,0 +1,28 @@
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
+#
+# Example of a framework
+# - name: Framework
+#   weight: 5
+
+- name: SailsJS
+  weight: 5
+
+- name: ExpressJS
+  weight: 3
+
+- name: VUeJS
+  weight: 4
+
+- name: PostgreSQL
+  weight: 2
+
+- name: MongoDB
+  weight: 3
+
+- name: Tensorflow
+  weight: 2
+
+- name: OpenCV
+  weight: 2
+
