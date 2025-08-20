@@ -1,13 +1,19 @@
 // Custom cursor effect
 function initCustomCursor() {
-    // Create cursor dot element
-    const cursorDot = document.createElement('div');
-    cursorDot.className = 'cursor-dot';
-    document.body.appendChild(cursorDot);
+    // Create cursor dot element if it doesn't exist
+    let cursorDot = document.querySelector('.cursor-dot');
+    if (!cursorDot) {
+        cursorDot = document.createElement('div');
+        cursorDot.className = 'cursor-dot';
+        document.body.appendChild(cursorDot);
+    }
 
-    // Update cursor position
+    // Update cursor position with smoother animation
     function updateCursorPosition(e) {
-        cursorDot.style.transform = `translate(${e.clientX - 4}px, ${e.clientY - 4}px)`;
+        requestAnimationFrame(() => {
+            cursorDot.style.left = e.clientX + 'px';
+            cursorDot.style.top = e.clientY + 'px';
+        });
     }
 
     // Add hover effect

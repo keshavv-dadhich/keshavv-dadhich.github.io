@@ -6,11 +6,31 @@ function introAnimation() {
         { text: "Bonjour", lang: "French" }
     ];
 
-    const taglines = [
-        "Innovating AI-powered solutions",
-        "Developing with curiosity and expertise",
-        "Always learning and innovating"
-    ];
+    const mainInfo = {
+        name: "Keshav Dadhich",
+        taglines: [
+            "AI & ML Engineer",
+            "Creating Innovative Solutions",
+            "Turning Vision into Reality"
+        ]
+    };
+
+    const overlay = document.createElement('div');
+    overlay.className = 'intro-overlay';
+    
+    const content = document.createElement('div');
+    content.className = 'intro-content';
+    
+    const text = document.createElement('div');
+    text.className = 'intro-text';
+    
+    const subtitle = document.createElement('div');
+    subtitle.className = 'intro-subtitle';
+    
+    content.appendChild(text);
+    content.appendChild(subtitle);
+    overlay.appendChild(content);
+    document.body.appendChild(overlay);
 
     const overlay = document.querySelector('.intro-overlay');
     const introText = document.querySelector('.intro-text');
@@ -26,8 +46,26 @@ function introAnimation() {
 
     function showNextText() {
         if (isShowingGreeting) {
-            // Show greeting
-            introText.textContent = greetings[currentGreeting].text;
+            text.textContent = greetings[currentGreeting].text;
+            subtitle.textContent = greetings[currentGreeting].lang;
+            currentGreeting = (currentGreeting + 1) % greetings.length;
+            
+            if (currentGreeting === 0) {
+                isShowingGreeting = false;
+                setTimeout(() => {
+                    text.textContent = mainInfo.name;
+                    subtitle.textContent = mainInfo.taglines[0];
+                    setTimeout(() => {
+                        overlay.classList.add('fade-out');
+                        document.querySelector('.layout').classList.remove('content-hidden');
+                    }, 2000);
+                }, 1000);
+                return;
+            }
+        }
+        
+        setTimeout(showNextText, 2000);
+    }
             introSubtitle.textContent = greetings[currentGreeting].lang;
             
             introText.classList.remove('fade-in', 'fade-out');
