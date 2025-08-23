@@ -31,6 +31,7 @@
   text-align: center;
   opacity: 0;
   animation: fadeInUp 1s forwards;
+  display: none;
 }
 
 #introLines {
@@ -40,6 +41,7 @@
   text-align: center;
   opacity: 0;
   animation: fadeInUp 1s forwards 0.3s;
+  display: none;
 }
 
 @keyframes fadeInUp {
@@ -67,67 +69,4 @@
     font-size: 1.2rem;
     padding: 0 20px;
   }
-}
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.intro-text {
-  font-size: 4rem;
-  color: #fff;
-  opacity: 0;
-  transform: translateY(20px);
-  text-align: center;
-}
-
-.intro-subtitle {
-  font-size: 1.8rem;
-  color: #64ffda;
-  opacity: 0;
-  transform: translateY(20px);
-  text-align: center;
-  margin-top: 1rem;
-}
-
-/* Animation classes */
-.fade-in {
-  animation: fadeIn 0.8s ease-in forwards;
-}
-
-.fade-out {
-  animation: fadeOut 0.8s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-}
-
-/* Hide main content during intro */
-.content-hidden {
-  opacity: 0;
-}
-
-.content-visible {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
 }

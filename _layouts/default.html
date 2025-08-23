@@ -18,6 +18,54 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  
+  <!-- Intro Animation Script -->
+  <script>
+  function initIntroAnimation() {
+    const greetings = ["hello", "namaste", "bonjour"];
+    const greetingElem = document.getElementById("greeting");
+    const nameElem = document.getElementById("myName");
+    const linesElem = document.getElementById("introLines");
+
+    if (!greetingElem || !nameElem || !linesElem) {
+      console.error("Intro elements not found");
+      const mainContent = document.getElementById("mainContent");
+      if (mainContent) {
+        mainContent.style.display = "block";
+      }
+      return;
+    }
+
+    let i = 0;
+    function showGreetings() {
+      if (i < greetings.length) {
+        greetingElem.textContent = greetings[i];
+        greetingElem.style.opacity = 1;
+        setTimeout(() => {
+          greetingElem.style.opacity = 0;
+          i++;
+          setTimeout(showGreetings, 500);
+        }, 1800);
+      } else {
+        greetingElem.style.display = "none";
+        nameElem.style.display = "block";
+        linesElem.style.display = "block";
+        setTimeout(() => {
+          document.getElementById("intro").style.display = "none";
+          document.getElementById("mainContent").style.display = "block";
+        }, 2200);
+      }
+    }
+
+    showGreetings();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initIntroAnimation);
+  } else {
+    initIntroAnimation();
+  }
+  </script>
 </head>
 
 <body>
