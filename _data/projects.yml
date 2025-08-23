@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Bruno - AI-Powered Web Research Assistant
-  descr: "Engineered intelligent multi-cycle web research assistant processing 50+ queries/hour with local LLM inference using Ollama and LMStudio. Implemented asynchronous web scraping architecture integrating DuckDuckGo and Perplexity APIs, processing 15+ web pages per query cycle with ~5s average latency."
+  descr: "Built an intelligent multi-cycle web research assistant processing 50+ queries/hour with local LLM inference using Ollama and LMStudio. Implemented asynchronous web scraping architecture integrating DuckDuckGo and Perplexity APIs, achieving ~5s average latency per query cycle."
   demo: https://github.com/keshavv-dadhich/bruno
   tags:
     - tag: Python
@@ -23,37 +23,37 @@
     - tag: FastAPI
     - tag: Asyncio
 
-- name: Neural Style Transfer & GANs
-  descr: "Developed advanced neural style transfer models using PyTorch, implementing both VGG-based and GAN-based approaches. Created real-time style transfer pipeline achieving 30+ FPS performance with custom optimization techniques."
-  demo: https://github.com/keshavv-dadhich/neural-style-transfer
+- name: Machine Learning Projects Collection
+  descr: "Comprehensive collection of ML projects including neural style transfer using PyTorch, sentiment analysis with transformers, and computer vision applications. Implemented both traditional ML algorithms and deep learning models for various problem domains."
+  demo: https://github.com/keshavv-dadhich/ml-projects
   tags:
     - tag: PyTorch
     - tag: Computer Vision
-    - tag: GANs
-    - tag: Neural Networks
-    - tag: CUDA
+    - tag: NLP
+    - tag: Scikit-learn
+    - tag: Jupyter
 
-- name: Algorithmic Trading Engine
-  descr: "Built high-frequency trading system with ML-driven strategy optimization. Implemented real-time market data processing, backtesting framework, and risk management systems. Achieved 15% annual returns with 0.8 Sharpe ratio."
+- name: Algorithmic Trading Strategy
+  descr: "Developed automated trading strategies using technical indicators and machine learning. Built backtesting framework with risk management systems. Implemented data pipeline for real-time market data processing and strategy evaluation."
   demo: https://github.com/keshavv-dadhich/algorithmic-trading
   tags:
     - tag: Python
     - tag: Machine Learning
-    - tag: QuantLib
     - tag: Pandas
     - tag: NumPy
     - tag: Finance
+    - tag: API Integration
 
-- name: Real-Time Chat Application with AI
-  descr: "Developed scalable real-time chat platform with integrated AI assistant using WebSocket connections. Features include message encryption, file sharing, AI-powered auto-suggestions, and sentiment analysis with 99.9% uptime."
-  demo: https://github.com/keshavv-dadhich/ai-chat-app
+- name: Full-Stack Web Application
+  descr: "Built a responsive web application with user authentication, real-time features, and RESTful APIs. Features include user dashboard, data visualization, and file upload functionality. Deployed using modern DevOps practices."
+  demo: https://github.com/keshavv-dadhich/web-app
   tags:
-    - tag: Node.js
-    - tag: Socket.io
     - tag: React
+    - tag: Node.js
     - tag: MongoDB
-    - tag: AI Integration
-    - tag: WebRTC
+    - tag: Express
+    - tag: JWT Auth
+    - tag: Docker
     - tag: LangChain
     - tag: FastAPI
     - tag: LLMs

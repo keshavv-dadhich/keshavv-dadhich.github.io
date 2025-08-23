@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Keshav Dadhich
 # description: This will be meta HTML tag content. This can be ignored.
-description: Data Science & AI Portfolio
+description: Computer Science Student Portfolio
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -14,7 +14,7 @@ baseurl: ""
 username: Keshav Dadhich
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: ML/AI Enthusiast
+typing_text: CS Undergraduate | ML Enthusiast
 # email: Your E-Mail address for the email button.
 email: "dadhichkeshav5@gmail.com"
 # For every social button you want to display, set your username or userid

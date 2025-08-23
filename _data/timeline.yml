@@ -17,6 +17,18 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: "National Institute of Technology Goa"
+  title-url: "https://www.nitgoa.ac.in/"
+  date: "2022 - 2026"
+  subtitle: "B.Tech Computer Science Engineering (4th Year)"
+  tags:
+    - tag: Computer Science
+    - tag: Algorithms
+    - tag: Data Structures
+    - tag: Machine Learning
+    - tag: Software Engineering
+  timeline-side: left
+
 - title: "Wadhwani School of Data Science and AI"
   title-url: "https://www.wadhwaniai.org/"
   date: "May 2025 - Present"
@@ -26,14 +38,6 @@
     - tag: Python
     - tag: ML Research
   timeline-side: right
-
-- title: "National Institute of Technology Goa"
-  title-url: "https://nitg.ac.in/"
-  date: "2022 - 2026"
-  subtitle: "B.Tech in Computer Science and Engineering | GPA - 8.96/10.0"
-  tags:
-    - tag: Computer Science
-  timeline-side: left
 
 - title: "Notable Achievement"
   date: "2024"

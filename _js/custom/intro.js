@@ -59,7 +59,7 @@ function introAnimation() {
                 
                 setTimeout(() => {
                     text.textContent = "Keshav Dadhich";
-                    subtitle.textContent = "AI & ML Engineer";
+                    subtitle.textContent = "CS Student @ NIT Goa";
                     
                     text.classList.add('show');
                     subtitle.classList.add('show');
