@@ -1,20 +1,6 @@
 // Intro animation sequence
 function introAnimation() {
-    const greetings = [
-        { text: "Hello", lang: "English" },
-        { text: "नमस्ते", lang: "Hindi" },
-        { text: "Bonjour", lang: "French" }
-    ];
-
-    const mainInfo = {
-        name: "Keshav Dadhich",
-        taglines: [
-            "AI & ML Engineer",
-            "Creating Innovative Solutions",
-            "Turning Vision into Reality"
-        ]
-    };
-
+    // Create the intro overlay
     const overlay = document.createElement('div');
     overlay.className = 'intro-overlay';
     
@@ -31,6 +17,73 @@ function introAnimation() {
     content.appendChild(subtitle);
     overlay.appendChild(content);
     document.body.appendChild(overlay);
+
+    // Hide main content
+    const mainContent = document.querySelector('#landing');
+    if (mainContent) {
+        mainContent.classList.add('content-hidden');
+    }
+
+    const greetings = [
+        { text: "Hello", lang: "English" },
+        { text: "नमस्ते", lang: "Hindi" },
+        { text: "Bonjour", lang: "French" }
+    ];
+
+    let currentIndex = 0;
+
+    function showGreeting() {
+        if (currentIndex < greetings.length) {
+            const greeting = greetings[currentIndex];
+            
+            // Hide current text
+            text.classList.remove('show');
+            subtitle.classList.remove('show');
+            
+            setTimeout(() => {
+                text.textContent = greeting.text;
+                subtitle.textContent = greeting.lang;
+                
+                // Show new text
+                text.classList.add('show');
+                subtitle.classList.add('show');
+                
+                currentIndex++;
+                setTimeout(showGreeting, 2000); // Show each greeting for 2 seconds
+            }, 300);
+        } else {
+            // Show final message
+            setTimeout(() => {
+                text.classList.remove('show');
+                subtitle.classList.remove('show');
+                
+                setTimeout(() => {
+                    text.textContent = "Keshav Dadhich";
+                    subtitle.textContent = "AI & ML Engineer";
+                    
+                    text.classList.add('show');
+                    subtitle.classList.add('show');
+                    
+                    // Fade out overlay and show main content
+                    setTimeout(() => {
+                        overlay.classList.add('fade-out');
+                        if (mainContent) {
+                            mainContent.classList.remove('content-hidden');
+                        }
+                        
+                        // Remove overlay after animation
+                        setTimeout(() => {
+                            document.body.removeChild(overlay);
+                        }, 1000);
+                    }, 2000);
+                }, 300);
+            }, 500);
+        }
+    }
+
+    // Start the animation
+    setTimeout(showGreeting, 500);
+}
 
     const overlay = document.querySelector('.intro-overlay');
     const introText = document.querySelector('.intro-text');

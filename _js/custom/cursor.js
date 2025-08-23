@@ -10,10 +10,8 @@ function initCustomCursor() {
 
     // Update cursor position with smoother animation
     function updateCursorPosition(e) {
-        requestAnimationFrame(() => {
-            cursorDot.style.left = e.clientX + 'px';
-            cursorDot.style.top = e.clientY + 'px';
-        });
+        cursorDot.style.left = e.clientX + 'px';
+        cursorDot.style.top = e.clientY + 'px';
     }
 
     // Add hover effect
@@ -24,6 +22,18 @@ function initCustomCursor() {
     // Remove hover effect
     function removeCursorHoverEffect() {
         cursorDot.classList.remove('active');
+    }
+
+    // Add event listeners
+    document.addEventListener('mousemove', updateCursorPosition);
+    
+    // Add hover effects to interactive elements
+    const interactiveElements = document.querySelectorAll('a, button, .btn, input, textarea, [onclick]');
+    interactiveElements.forEach(element => {
+        element.addEventListener('mouseenter', addCursorHoverEffect);
+        element.addEventListener('mouseleave', removeCursorHoverEffect);
+    });
+}
     }
 
     // Add event listeners

@@ -9,9 +9,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 10000;
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.intro-overlay.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.intro-content {
+    text-align: center;
+    color: #64ffda;
+}
+
+.intro-text {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.intro-text.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.intro-subtitle {
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.intro-subtitle.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hide main content initially */
+.content-hidden {
+    opacity: 0;
+    pointer-events: none;
 }
   justify-content: center;
   align-items: center;

@@ -18,6 +18,42 @@
   demo: https://github.com/keshavv-dadhich/bruno
   tags:
     - tag: Python
+    - tag: LLM
+    - tag: Web Scraping
+    - tag: FastAPI
+    - tag: Asyncio
+
+- name: Neural Style Transfer & GANs
+  descr: "Developed advanced neural style transfer models using PyTorch, implementing both VGG-based and GAN-based approaches. Created real-time style transfer pipeline achieving 30+ FPS performance with custom optimization techniques."
+  demo: https://github.com/keshavv-dadhich/neural-style-transfer
+  tags:
+    - tag: PyTorch
+    - tag: Computer Vision
+    - tag: GANs
+    - tag: Neural Networks
+    - tag: CUDA
+
+- name: Algorithmic Trading Engine
+  descr: "Built high-frequency trading system with ML-driven strategy optimization. Implemented real-time market data processing, backtesting framework, and risk management systems. Achieved 15% annual returns with 0.8 Sharpe ratio."
+  demo: https://github.com/keshavv-dadhich/algorithmic-trading
+  tags:
+    - tag: Python
+    - tag: Machine Learning
+    - tag: QuantLib
+    - tag: Pandas
+    - tag: NumPy
+    - tag: Finance
+
+- name: Real-Time Chat Application with AI
+  descr: "Developed scalable real-time chat platform with integrated AI assistant using WebSocket connections. Features include message encryption, file sharing, AI-powered auto-suggestions, and sentiment analysis with 99.9% uptime."
+  demo: https://github.com/keshavv-dadhich/ai-chat-app
+  tags:
+    - tag: Node.js
+    - tag: Socket.io
+    - tag: React
+    - tag: MongoDB
+    - tag: AI Integration
+    - tag: WebRTC
     - tag: LangChain
     - tag: FastAPI
     - tag: LLMs
