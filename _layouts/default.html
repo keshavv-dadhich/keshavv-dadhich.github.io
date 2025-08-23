@@ -21,9 +21,10 @@
 </head>
 
 <body>
-  <div class="intro-overlay">
-    <div class="intro-text"></div>
-    <div class="intro-subtitle"></div>
+  <div id="intro">
+    <span id="greeting"></span>
+    <span id="myName" style="display:none;">Keshav Dadhich</span>
+    <span id="introLines" style="display:none;">CS Student @ NIT Goa | ML Enthusiast</span>
   </div>
   <div id="preloader">
     <div class="load">
@@ -33,13 +34,14 @@
       <hr />
     </div>
   </div>
-  {% include landing-page.html %}
-  <div class="layout">
-    {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
-      </section>
-    {% endif %}
+  <div id="mainContent" style="display: none;">
+    {% include landing-page.html %}
+    <div class="layout">
+      {%if site.show_aboutme_card %}
+        <section class="card neumorphism-card-big">
+          {% include section-aboutme.html %}
+        </section>
+      {% endif %}
     {%if site.show_skills_card %}
       <section class="card neumorphism-card-big">
         {% include section-skills.html %}
@@ -60,7 +62,8 @@
       {% include section-contact.html %}
     </section>
     {% endif %}
+    </div>
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 </html>
